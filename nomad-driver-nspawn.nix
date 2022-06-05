@@ -7,8 +7,9 @@ buildGoModule rec {
   src = fetchFromGitHub {
     owner = "JanMa";
     repo = pname;
-    rev = "v${version}";
-    sha256 = "sha256-8owXwjQ0iPiNLXOZ9AOIDNuU5I90uca6MwRQVsExbro";
+    rev = "dependabot/go_modules/github.com/hashicorp/nomad-1.2.8"; # "v${version}";
+    # sha256 = "sha256-8owXwjQ0iPiNLXOZ9AOIDNuU5I90uca6MwRQVsExbro";
+    sha256 = "sha256-hIQFyFrd/u5tjqz/K0Ps2e9RkrSO3RpNcT36a61VeUE";
   };
 
   vendorSha256 = null;
