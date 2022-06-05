@@ -20,7 +20,7 @@ buildGoModule rec {
   meta = with lib; {
     homepage = "https://www.github.com/JanMa/nomad-driver-nspawn";
     description = "systemd-nspawn task driver for Nomad";
-    # platforms = platforms.linux;
+    platforms = platforms.linux;
     license = licenses.mit;
     maintainers = [ "bitmappergit" ];
   };
