@@ -5,13 +5,10 @@ buildGoModule rec {
   version = "0.9.0";
 
   src = fetchFromGitHub {
-    owner = "bitmappergit";
+    owner = "JanMa";
     repo = pname;
     rev = "v${version}";
-    # sha256 = "sha256-8owXwjQ0iPiNLXOZ9AOIDNuU5I90uca6MwRQVsExbro";
-    # sha256 = "sha256-hIQFyFrd/u5tjqz/K0Ps2e9RkrSO3RpNcT36a61VeUE";
-    # sha256 = "sha256-Jh10drslETtjNiDkTMOyMNGoIEY1EcJ5GDXYJh0zIIk";
-    sha256 = "sha256-+4KqeRJL2jKnzxl+O6BFle3n+5IDXuOLSeShyw8cR1s=";
+    sha256 = "sha256-8owXwjQ0iPiNLXOZ9AOIDNuU5I90uca6MwRQVsExbro";
   };
 
   vendorSha256 = null;
