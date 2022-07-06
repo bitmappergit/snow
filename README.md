@@ -1,2 +1,8 @@
 # snow
-my nix packages repository
+Nix packages and utilities.
+
+### Packages
+
+- purescript
+- bower-json
+- nomad-driver-nspawn
